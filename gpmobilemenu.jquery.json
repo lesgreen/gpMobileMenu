@@ -1,0 +1,37 @@
+{
+"name": "gpmobilemenu",
+"title": "gpMobileMenu",
+"description": "jQuery Mobile plugin for creating dynamic menus on mobile devices. Modes include 'above-content', 'split-view', and 'slide'",
+"keywords": [
+"menu",
+"mobile",
+"split-view",
+"animation"
+],
+"version": "0.5.0",
+"author": {
+"name": "Les Green",
+"url": "https://grasshopperpebbles.com/"
+},
+"maintainers": [
+{
+"name": "Les Green",
+"email": "lesgreen@grasshopperpebbles.com",
+"url": "http://grasshopperpebbles.com"
+}
+],
+"licenses": [
+{
+"type": "GNU",
+"url": "https://github.com/lesgreen/gpMobileMenu/blob/master/license.txt"
+}
+],
+"bugs": "https://github.com/lesgreen/gpMobileMenu/issues",
+"homepage": "https://github.com/lesgreen/gpMobileMenu",
+"docs": "http://grasshopperpebbles.com/ajax/jquery-mobile-plugin-gpmobilemenu/",
+"download": "https://github.com/lesgreen/gpMobileMenu",
+"dependencies": {
+"jquery": ">=1.5",
+"jquery-mobile": ">=1.1"
+}
+}

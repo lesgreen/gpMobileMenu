@@ -1,0 +1,111 @@
+body {
+	/*overflow:hidden;*/
+}
+
+.ui-page {
+	display:inherit;
+}
+
+#gp-mobile-menu-icon .ui-btn-inner {
+	border: none;
+    box-shadow: none; 
+    text-shadow: none;
+}
+#gp-mobile-menu-icon.ui-shadow {
+	box-shadow:none;
+}
+#gp-mobile-menu-icon.ui-btn-right {
+	right:10px;
+	top:6px;
+}
+#gp-mobile-menu-icon.ui-btn-left {
+	left:10px;
+	top:6px;
+}
+#gp-mobile-menu-icon {
+	height:24px;
+	width:24px;
+	border: none;
+    box-shadow: none; 
+    text-shadow: none;
+	background:url('../images/gp-mobile-menu-icon.png');
+	cursor:pointer;
+}
+#gp-mobile-menu-icon.ui-btn-up-a, #gp-mobile-menu-icon.ui-btn-hover-a {
+	background-position: 0 0px;
+}
+#gp-mobile-menu-icon.ui-btn-up-b, #gp-mobile-menu-icon.ui-btn-hover-b {
+	background-position: 0 -22px;
+}
+#gp-mobile-menu-icon.ui-btn-up-c, #gp-mobile-menu-icon.ui-btn-hover-c {
+	background-position: 0 -45px;
+}
+#gp-mobile-menu-icon.ui-btn-up-d, #gp-mobile-menu-icon.ui-btn-hover-d {
+	background-position: 0 -69px;
+}
+#gp-mobile-menu-icon.ui-btn-up-e, #gp-mobile-menu-icon.ui-btn-hover-e {
+	background-position: 0 -92px;
+}
+#gp-mobile-menu-icon.ui-btn-up-f, #gp-mobile-menu-icon.ui-btn-hover-f {
+	background-position: -25px 0px;
+}
+#gp-mobile-menu-icon.ui-btn-up-g, #gp-mobile-menu-icon.ui-btn-hover-g {
+	background-position: -25px -22px;
+}
+#gp-mobile-menu-icon.ui-btn-up-h, #gp-mobile-menu-icon.ui-btn-hover-h {
+	background-position: -25px -45px;
+}
+#gp-mobile-menu-icon.ui-btn-up-i, #gp-mobile-menu-icon.ui-btn-hover-i {
+	background-position: -25px -69px;
+}
+#gp-mobile-menu-icon.ui-btn-up-j, #gp-mobile-menu-icon.ui-btn-hover-j {
+	background-position: -25px -92px;
+}
+
+#gp-mobile-menu-icon.ui-btn-up-k, #gp-mobile-menu-icon.ui-btn-hover-k {
+	background-position: -50px 0px;
+}
+#gp-mobile-menu-icon.ui-btn-up-l, #gp-mobile-menu-icon.ui-btn-hover-l {
+	background-position: -50px -22px;
+}
+#gp-mobile-menu-icon.ui-btn-up-m, #gp-mobile-menu-icon.ui-btn-hover-m {
+	background-position: -50px -45px;
+}
+#gp-mobile-menu-icon.ui-btn-up-n, #gp-mobile-menu-icon.ui-btn-hover-n {
+	background-position: -50px -69px;
+}
+#gp-mobile-menu-icon.ui-btn-up-o, #gp-mobile-menu-icon.ui-btn-hover-o {
+	background-position: -50px -92px;
+}
+
+.gp-mobile-menu-main-content {
+	position:relative;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+
+.menu-cntnr-above-content { position:absolute; top:21px; z-index: 1000; width:98%; }
+.menu-cntnr-split-view {position:absolute; top:0; left:0; width: 20%; padding:0;}
+.menu-cntnr-split-view .gp-mobile-menu-items {
+	margin:0;
+}
+.gp-mobile-menu-items .ui-li-divider {
+	text-align: center;
+}
+.gp-mobile-menu-wrapper {
+	margin:0;
+	padding:0;
+}
+
+.menu-cntnr-slide {
+	float:left;
+	width:100%;
+	padding:0;
+	margin:0;
+	display:none;
+}
+
+.gp-mobile-menu-items-sub {
+	margin:0;
+}
